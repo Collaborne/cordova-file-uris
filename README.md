@@ -1,4 +1,6 @@
 # cordova-file-uris
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Collaborne/cordova-file-uris.svg)](https://greenkeeper.io/)
 Helper function for Cordova applications to create URIs to show device files within a WebView
 
 Different webviews require different URLs to show device files. For example, iOS
