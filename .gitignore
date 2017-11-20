@@ -2,3 +2,7 @@ dist/
 lib/
 node_modules
 npm-debug.log
+
+npm-shrinkwrap.json
+package-lock.json
+yarn.lock
