@@ -1,6 +1,6 @@
 {
   "name": "cordova-file-uris",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Helper function for Cordova applications to create URIs to show device files within a WebView",
   "keywords": [
     "cordova",
