@@ -2,13 +2,13 @@
 	"compilerOptions": {
 		"declaration": true,
 		"outDir": "./dist",
+		"module": "es2015",
+		"target": "es5"
 	},
 	"include": [
 		"./src/**/*"
 	],
 	"defaultSeverity": "error",
-	"module": "es6",
-	"target": "es6",
 	"lib": ["es2016", "dom", "es5"],
 	"rules": {
 		"arrow-parens": [
