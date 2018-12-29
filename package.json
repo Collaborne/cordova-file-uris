@@ -33,8 +33,6 @@
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.18",
     "chai": "^4.1.2",
-    "eslint": "^2.13.1",
-    "eslint-config-flickr": "~1.1.8",
     "mocha": "^5.2.0",
     "ts-node": "^7.0.1",
     "tslint": "^5.12.0",
