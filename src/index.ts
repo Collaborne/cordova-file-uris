@@ -5,7 +5,8 @@ const WebView = {
 /**
  * Adds the thumbnail URL (depending on the webview)
  *
- * We don't use URIJs because 
+ * We don't use URIJs because it's hard to import in a browser setup without
+ * require() support.
  *
  * @param path Path of the file that should be converted
  * @param webView Supported values: "wkwebview", "other" (e.g. Android)
