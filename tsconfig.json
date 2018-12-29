@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"defaultSeverity": "error",
+	"module": "es2015",
+	"moduleResolution": "node",
+	"lib": ["es2016", "dom", "es5"],
+	"rules": {
+		"arrow-parens": [
+			true,
+			"ban-single-arg-parens"
+		],
+		"indent": [
+			true,
+			"tabs"
+		],
+		"interface-name": [
+			true,
+			"never-prefix"
+		],
+		"max-line-length": {
+			"severity": "warn",
+			"options": 120
+		},
+		"object-literal-shorthand": {
+			"severity": "warn"
+		},
+		"quotemark": [
+			true,
+			"single"
+		]
+	}
+}
