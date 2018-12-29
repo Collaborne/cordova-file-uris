@@ -19,7 +19,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "tslint -c tslint.json \"src/**/*.ts\" \"test/**/*.ts\"",
-    "test": "node ${_NODE_ARGS} node_modules/.bin/_mocha --recursive -r ts-node/register \"test/**/*.ts\"",
+    "test": "TS_NODE_FILES=true TS_NODE_COMPILER_OPTIONS=\"{\\\"module\\\":\\\"commonjs\\\"}\" node ${_NODE_ARGS} node_modules/.bin/_mocha --recursive -r ts-node/register \"test/**/*.ts\"",
     "prepublish": "npm run lint && npm run build"
   },
   "repository": {

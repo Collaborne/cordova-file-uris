@@ -3,36 +3,25 @@
 		"declaration": true,
 		"outDir": "./dist",
 		"module": "es2015",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"lib": ["es5", "es6", "es2015", "es2016"],
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+		"preserveSymlinks": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strict": true,
+		"strictBindCallApply": true,
+		"strictNullChecks": true,
 		"target": "es5"
 	},
 	"include": [
 		"./src/**/*"
-	],
-	"defaultSeverity": "error",
-	"lib": ["es2016", "dom", "es5"],
-	"rules": {
-		"arrow-parens": [
-			true,
-			"ban-single-arg-parens"
-		],
-		"indent": [
-			true,
-			"tabs"
-		],
-		"interface-name": [
-			true,
-			"never-prefix"
-		],
-		"max-line-length": {
-			"severity": "warn",
-			"options": 120
-		},
-		"object-literal-shorthand": {
-			"severity": "warn"
-		},
-		"quotemark": [
-			true,
-			"single"
-		]
-	}
+	]
 }
